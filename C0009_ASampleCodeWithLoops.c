@@ -21,7 +21,7 @@ int main()
 			if (number < 2)
 				isPrime = false;
 			else
-				for (i = 2; i <= (float) number / 2; i++)
+				for (i = 2; i <= (float)number / 2; i++)
 				{
 
 					if (number % i == 0) {
